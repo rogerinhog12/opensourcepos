@@ -1,3 +1,5 @@
+RewriteRule ^(.*)$ /public/index.php?/$1 [L]
+
 # disable directory browsing
 # For security reasons, Option all cannot be overridden.
 Options +ExecCGI +Includes +IncludesNOEXEC +SymLinksIfOwnerMatch -Indexes
